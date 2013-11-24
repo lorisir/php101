@@ -27,7 +27,7 @@ $valid = form_is_valid($form, $required_fields);
             <ul>
                 <li>
                     <label for="username">Username</label>
-                    <input type="text" name="username" value="<?php echo htmlentities($form['username']); ?>" />
+                    <input type="text" name="username" value="<?php echo htmlentities($form['username']); ?>" required="required" />
                 </li>
                 <li>
                     <label for="password">Password</label>
